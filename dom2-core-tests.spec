@@ -35,7 +35,7 @@
 
 Name:           dom2-core-tests
 Version:        0.0.1
-Release:        %mkrel 0.20040405.1.2
+Release:        %mkrel 0.20040405.1.3
 Epoch:          0
 Summary:        DOM Conformance Test Suite
 Group:          Development/Java
