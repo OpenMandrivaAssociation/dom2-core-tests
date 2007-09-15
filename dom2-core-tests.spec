@@ -35,7 +35,7 @@
 
 Name:           dom2-core-tests
 Version:        0.0.1
-Release:        %mkrel 0.20040405.1.3
+Release:        %mkrel 0.20040405.1.4
 Epoch:          0
 Summary:        DOM Conformance Test Suite
 Group:          Development/Java
@@ -50,8 +50,6 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires:  ant
 %if %{gcj_support}
 BuildRequires:  java-gcj-compat-devel
-Requires(post): java-gcj-compat
-Requires(postun): java-gcj-compat
 %else
 BuildArch:      noarch
 BuildRequires:  java-devel >= 0:1.4.2
