@@ -44,6 +44,7 @@ URL:            http://www.w3.org/DOM/Test/
 Source0:        http://www.w3.org/2004/04/dom2-core-tests-20040405.jar
 Patch0:         dom2-core-tests-build_xml.patch
 Patch1:         dom2-core-tests-no-classpath-in-manifest.patch
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 #Vendor:         JPackage Project
 #Distribution:   JPackage
 BuildRequires:  ant
