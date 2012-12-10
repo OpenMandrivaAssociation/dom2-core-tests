@@ -124,3 +124,47 @@ rm -rf $RPM_BUILD_ROOT
 %{_javadocdir}/%{name}
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0:0.0.1-0.20040405.1.7mdv2011.0
++ Revision: 617871
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0:0.0.1-0.20040405.1.6mdv2010.0
++ Revision: 428326
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0:0.0.1-0.20040405.1.5mdv2009.0
++ Revision: 136373
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Dec 16 2007 Anssi Hannula <anssi@mandriva.org> 0:0.0.1-0.20040405.1.5mdv2008.1
++ Revision: 120862
+- buildrequire java-rpmbuild, i.e. build with icedtea on x86(_64)
+
+* Sat Sep 15 2007 Anssi Hannula <anssi@mandriva.org> 0:0.0.1-0.20040405.1.4mdv2008.0
++ Revision: 87326
+- rebuild to filter out autorequires of GCJ AOT objects
+- remove unnecessary Requires(post) on java-gcj-compat
+
+* Sun Sep 09 2007 Pascal Terjan <pterjan@mandriva.org> 0:0.0.1-0.20040405.1.3mdv2008.0
++ Revision: 82880
+- rebuild
+
+
+* Mon Mar 12 2007 David Walluck <walluck@mandriva.org> 0:0.0.1-0.20040405.1.2mdv2007.1
++ Revision: 142010
+- bump release
+- BuildRequires: junit
+- Import dom2-core-tests
+
+* Mon Mar 12 2007 David Walluck <walluck@mandriva.org> 0:0.0.1-0.20040405.1.1mdv2007.1
+- release
+
+* Mon Jan 30 2006 Ralph Apel <r.apel at r-apel.de> 0:0.0.1-0.20040405.1jpp
+- First JPackage build.
+
