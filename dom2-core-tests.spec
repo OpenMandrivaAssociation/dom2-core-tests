@@ -40,7 +40,7 @@ Epoch:          0
 Summary:        DOM Conformance Test Suite
 Group:          Development/Java
 License:        W3C Software License
-URL:            http://www.w3.org/DOM/Test/
+URL:            https://www.w3.org/DOM/Test/
 Source0:        http://www.w3.org/2004/04/dom2-core-tests-20040405.jar
 Patch0:         dom2-core-tests-build_xml.patch
 Patch1:         dom2-core-tests-no-classpath-in-manifest.patch
